@@ -100,8 +100,7 @@ public class Person {
                 && phone.equals(otherPerson.phone)
                 && email.equals(otherPerson.email)
                 && address.equals(otherPerson.address)
-                && tags.equals(otherPerson.tags)
-                && remark.equals(otherPerson.remark);
+                && tags.equals(otherPerson.tags);
     }
 
     @Override
