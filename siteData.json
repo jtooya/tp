@@ -6,12 +6,11 @@
       "title": "About Us",
       "headings": {
         "about-us": "About Us",
-        "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "jeremy-too": "Jeremy Too",
+        "kimberly": "Kimberly",
+        "amelia-chow": "Amelia Chow",
+        "wen-kang": "Wen Kang",
+        "zien-xu": "Zien Xu"
       },
       "headingKeywords": {}
     },
@@ -40,7 +39,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "unilink-developer-guide": "UniLink Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -51,8 +50,8 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
-        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
+        "add-feature": "Add feature",
+        "switch-theme-feature": "Switch Theme feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
@@ -62,8 +61,14 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
+        "adding-a-person": "Adding a person",
+        "editing-a-person-s-contact-details": "Editing a person's contact details",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-effort": "Appendix: Effort",
+        "difficulty-level-and-challenges": "Difficulty Level and Challenges",
+        "effort": "Effort",
+        "achievement": "Achievement"
       },
       "headingKeywords": {}
     },
@@ -107,23 +112,31 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
+        "unilink-user-guide": "UniLink User Guide",
+        "table-of-contents": "Table of Contents",
         "quick-start": "Quick start",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
-        "adding-a-person-add": "Adding a person: add",
+        "adding-a-person-add": "Adding a person : add",
         "listing-all-persons-list": "Listing all persons : list",
         "editing-a-person-edit": "Editing a person : edit",
-        "locating-persons-by-name-find": "Locating persons by name: find",
+        "finding-persons-by-name-find": "Finding persons by name : find",
+        "finding-persons-by-telegram-handle-findtele": "Finding persons by telegram handle : findtele",
+        "finding-persons-by-tags-findtag": "Finding persons by tags : findtag",
+        "filtering-persons-by-contact-type-filter": "Filtering persons by contact type : filter",
         "deleting-a-person-delete": "Deleting a person : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
+        "switching-display-theme-switch": "Switching display theme : switch",
+        "importing-data-import": "Importing data : import",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
         "editing-the-data-file": "Editing the data file",
-        "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
+        "preparing-a-csv-file": "Preparing a .csv file",
+        "constraints": "Constraints",
         "faq": "FAQ",
         "known-issues": "Known issues",
-        "command-summary": "Command summary"
+        "command-summary": "Command Summary",
+        "field-constraints": "Field Constraints"
       },
       "headingKeywords": {}
     },
@@ -131,7 +144,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "unilink": "UniLink"
       },
       "headingKeywords": {}
     },

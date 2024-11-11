@@ -14,10 +14,13 @@ Class UserPrefs
 
 Class UniquePersonList
 Class Person
-Class Address
+Class ContactType
+Class ModuleName
 Class Email
 Class Name
 Class Phone
+Class TelegramHandle
+Class Remark
 Class Tag
 
 Class I #FFFFFF
@@ -37,18 +40,23 @@ UserPrefs .up.|> ReadOnlyUserPrefs
 
 AddressBook *--> "1" UniquePersonList
 UniquePersonList --> "~* all" Person
-Person *--> Name
-Person *--> Phone
-Person *--> Email
-Person *--> Address
+Person *--> "1" ContactType
+Person *--> "0...1" TelegramHandle
+Person *--> "0...1" ModuleName
+Person *--> "1" Name
+Person *--> "0...1" Remark
+Person *--> "0...1"Phone
+Person *--> "0...1"Email
 Person *--> "*" Tag
 
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
 
 Name -[hidden]right-> Phone
-Phone -[hidden]right-> Address
-Address -[hidden]right-> Email
 
 ModelManager --> "~* filtered" Person
+
+note right of Person
+    A person must have at least one of Phone, Email or TelegramHandle
+end note
 @enduml
