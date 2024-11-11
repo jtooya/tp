@@ -392,6 +392,6 @@ with(this){return _c('h3',{attrs:{"id":"achievement"}},[_v("Achievement"),_c('a'
 with(this){return _c('ul',[_c('li',[_v("Our team successfully extended the basic functionality of AB3, transforming it into a more versatile and feature-rich application. The enhanced search capabilities and the addition of new fields significantly improved the usability of the application, allowing for more efficient contact management. The aesthetically refined UI, with support for both light and dark modes, further elevated the user experience and set our project apart from AB3.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 17:25:02 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 0:26:24 GMT+8]")])])])}
 }];
   
